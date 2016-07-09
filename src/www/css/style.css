@@ -1,7 +1,10 @@
-
 .scroll-content {
-    background: url(../img/Picture1.png);
+    background-image: url(../img/picturebg.jpeg);
     background-repeat: no-repeat;
-
-
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
 }
+
+
+
