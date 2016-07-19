@@ -1,10 +1,11 @@
-angular.module('App', ['ionic'])
+var Momsmed = angular.module('App', ['ionic'])
 
-.config(function ($stateProvider, $urlRouterProvider) {
+Momsmed.config(function ($stateProvider, $urlRouterProvider) {
 
   $stateProvider
     .state('home', {
       url: '/home',
+      controller: 'HomeCtrl',
       templateUrl: 'views/home/home.html'
     })
     .state('router', {
@@ -18,6 +19,18 @@ angular.module('App', ['ionic'])
   });
   $urlRouterProvider.otherwise('/router');
 
+});
+ Momsmed.factory('Medname',function(){
+   medname = {};
+   medname.name='';
+   return medname;
+   
+ });
+Momsmed.controller('HomeCtrl',function($scope, Medname){
+  $scope.input= Medname;
+});
+Momsmed.controller('ResultCtrl',function($scope, Medname){
+  $scope.input= Medname;
 })
 
 /*.config( ['$compileProvider', function( $compileProvider ){
@@ -33,5 +46,5 @@ angular.module('App', ['ionic'])
     if(window.StatusBar) {
       StatusBar.styleDefault();
     }
-  });
+  })
 });
