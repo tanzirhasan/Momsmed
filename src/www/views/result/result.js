@@ -2,10 +2,9 @@
     angular.module('App')
        Momsmed.controller('ResultCtrl', function ($scope, $http, $ionicLoading,Medname) {
             $ionicLoading.show();
-            // var url = 'https://api.fda.gov/drug/label.json:'
            $scope.input=Medname;
             var med =Medname.medname;
-            $http.get('/api/drugs' + '?search=pregnancy:' + med)
+            $http.get('https://api.fda.gov/drug/label.json' + '?api_key=0hsABDQ17AnD4oCOhV0GxLmGbvNzZ87YqqrJvsf4&search=pregnancy:' + med)
                 .success(function (medinfo) {
                     $scope.medinfo = medinfo;
                     // console.log($scope.medinfo.results[0].pregnancy[1].indexOf('Category'))
@@ -23,7 +22,7 @@
                             console.log(i + " " + medinfo.results[0].pregnancy[i]);
 
                             //check if string array contains the string
-                            if (medinfo.results[0].pregnancy[i].search("Category") >= 0) {
+                            if (medinfo.results[0].pregnancy[i].search("Pregnancy Category") >= 0) {
 
                                 //string found
                                 var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Category")+19;
