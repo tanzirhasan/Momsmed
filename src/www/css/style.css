@@ -12,6 +12,18 @@ ion-view{
     background-image: url(../img/picturebg.jpeg)
 
 }*/
+
+
+ion-view{
+    background-image: url(../img/homepage.png)
+
+}
+
+.bg2{
+    background-image: url(../img/picturebg.jpeg);
+    background-size: cover
+}
+
 .bold{
 
     font-weight:bold;
