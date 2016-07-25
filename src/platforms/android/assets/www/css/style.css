@@ -1,0 +1,21 @@
+/*.scroll-content {
+    background-image: url(../img/picturebg.jpeg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}*/
+
+
+/*
+ion-view{
+    background-image: url(../img/picturebg.jpeg)
+
+}*/
+.bold{
+
+    font-weight:bold;
+}
+.card .item{
+    background:cornflowerblue;
+}

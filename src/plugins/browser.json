@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "app.momsmed.tanzir"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "app.momsmed.tanzir"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "app.momsmed.tanzir"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "app.momsmed.tanzir"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "app.momsmed.tanzir"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "app.momsmed.tanzir"
+        }
+    },
+    "dependent_plugins": {}
+}

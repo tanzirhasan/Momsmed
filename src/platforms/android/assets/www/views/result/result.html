@@ -1,0 +1,20 @@
+<ion-view view-title="Result of your Search">
+    <ion-content >
+        <div class="card">
+            <div class="text-center">
+
+                <div >
+                    <span class="bold">Pregnancy Category of {{input.medname}} : </span>{{result}}</div>
+                <!--<div >Pregnancy Category of {{input.medname}} : {{medinfo.results[0].pregnancy[0][medinfo.results[0].pregnancy[0].indexOf('Category')+9]}} ; {{medinfo.results[0].pregnancy[1][medinfo.results[0].pregnancy[1].indexOf('Category')+9]}}</div>-->
+
+                <div >
+                    <span class="bold" > Info for lactating mother for {{input.medname}} : </span>{{medinfo.results[0].nursing_mothers[0]}}</div>
+            </div>
+        </div>
+        <div class="card ">
+
+            Data provided by the U.S. Food and Drug Administration (https://open.fda.gov)
+
+        </div>
+    </ion-content>
+</ion-view>
