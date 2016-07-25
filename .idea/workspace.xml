@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763e61cf-9c34-4d6c-bc6d-133406a79dd7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/www/views/moreinfo/moreinfo.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/www/img/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/www/img/logoS.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/img/ionic.png" afterPath="$PROJECT_DIR$/src/www/img/ionic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/css/style.css" afterPath="$PROJECT_DIR$/src/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/index.html" afterPath="$PROJECT_DIR$/src/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/js/app.js" afterPath="$PROJECT_DIR$/src/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/views/home/home.html" afterPath="$PROJECT_DIR$/src/www/views/home/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/views/result/result.html" afterPath="$PROJECT_DIR$/src/www/views/result/result.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/views/result/result.js" afterPath="$PROJECT_DIR$/src/www/views/result/result.js" />
     </list>
@@ -47,8 +37,8 @@
       <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/www/views/result/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="171">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -67,8 +57,8 @@
       <file leaf-file-name="result.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/www/views/result/result.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="-60">
+              <caret line="88" column="99" selection-start-line="88" selection-start-column="99" selection-end-line="88" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -99,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/www/views/router/router.html" />
         <option value="$PROJECT_DIR$/src/www/views/home/home.html" />
         <option value="$PROJECT_DIR$/src/www/css/style.css" />
-        <option value="$PROJECT_DIR$/src/www/views/result/result.html" />
         <option value="$PROJECT_DIR$/src/www/views/moreinfo/moreinfo.html" />
+        <option value="$PROJECT_DIR$/src/www/views/result/result.html" />
         <option value="$PROJECT_DIR$/src/www/views/result/result.js" />
       </list>
     </option>
@@ -112,8 +102,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="190" />
-    <option name="y" value="90" />
+    <option name="x" value="345" />
+    <option name="y" value="65" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
   </component>
@@ -264,12 +254,12 @@
       <workItem from="1468959189630" duration="380000" />
       <workItem from="1468959714793" duration="18929000" />
       <workItem from="1469379309570" duration="1756000" />
-      <workItem from="1469382379514" duration="31217000" />
+      <workItem from="1469382379514" duration="35800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55858000" />
+    <option name="totallyTimeSpent" value="60441000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -281,7 +271,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="190" y="90" width="1280" height="714" extended-state="0" />
+    <frame x="345" y="65" width="1280" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22875299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -560,14 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/views/result/result.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/www/views/moreinfo/moreinfo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -576,10 +558,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/www/views/result/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/www/views/result/result.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="-60">
+          <caret line="88" column="99" selection-start-line="88" selection-start-column="99" selection-end-line="88" selection-end-column="99" />
           <folding />
         </state>
       </provider>

@@ -16,6 +16,9 @@
                     $scope.result =[];
 
                     angular.forEach(medinfo.results[0].pregnancy,  function (Category, Categories) {
+                        if (medinfo.results[0].pregnancy === undefined){
+                            $scope.pregnancy = "N/A";
+                        }
                         for (var i = 0; i < medinfo.results[0].pregnancy.length; i++) {
 
                             //check if string array contains the string
@@ -35,52 +38,82 @@
                                 $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 56);
                                 break;
                             }
+                            else {
+                                $scope.result = medinfo.results[0].pregnancy[i];
 
+                            }
                         }
 
 
                         console.log($scope.result);
                         return $scope.result;
                     });
+
+
+
+
                     $scope.nurseinfo=[];
-                    angular.forEach(medinfo.results[0].nursing_mothers[0],function(milkinfo){
-                        if(medinfo.results[0].nursing_mothers[0]===undefined){
+                    angular.forEach(medinfo.results[0].nursing_mothers,function(milkinfo){
+                        if(medinfo.results[0].nursing_mothers === undefined){
                             $scope.nurseinfo='Not found';
                         }
-                        else { var idx=medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother');
-                            $scope.nurseinfo= medinfo.results[0].nursing_mothers[0].substring(idx+16,700);
+                        else {
+                           for ( var i=0; i < medinfo.results[0].nursing_mothers.length ;i++ ){
+                               if (i>=0){
+                                   var idx =medinfo.results[0].nursing_mothers[i].indexOf('Nursing Mother');
+                                   $scope.nurseinfo= medinfo.results[0].nursing_mothers[0].substring(idx+16,700);
+                                   break;
+
+                               }
+                               else if(i<0){
+                                   $scope.nurseinfo='No infromation found in FDA database';
+                                   break;
+
+                               }
+                           }
+
 
                         }
 
-                    return $scope.nurseinfo
+                    return $scope.nurseinfo;
 
                     });
 
                     $scope.druginter=[];
-                    angular.forEach(medinfo.results[0].drug_interactions[0],function (interaction) {
-                        var idx= medinfo.results[0].drug_interactions[0].indexOf('Drug Interactions');
-                        $scope.druginter= medinfo.results[0].drug_interactions[0].substr(idx+18,5000);
-                        
-                    return $scope.druginter 
+                    angular.forEach(medinfo.results[0].drug_interactions,function (interaction) {
+                        if(medinfo.results[0].drug_interactions === undefined){
+                            $scope.druginter= 'Not found';
+                        }
+                        else {
+                            var idx= medinfo.results[0].drug_interactions[0].indexOf('Drug Interactions');
+                            $scope.druginter= medinfo.results[0].drug_interactions[0].substr(idx+18,5000);
+                        }
+
+                    return $scope.druginter ;
                     });
                     $scope.warning=[];
-                    angular.forEach(medinfo.results[0].warnings[0],function (warning) {
-                        if(medinfo.results[0].warnings[0]===undefined){
+                    angular.forEach(medinfo.results[0].warnings,function (warning) {
+                        if(medinfo.results[0].warnings === undefined){
                             $scope.warning='not found';
+
                         }
                         else {
                             var idx= medinfo.results[0].warnings[0].indexOf('warnings');
                             $scope.warning= medinfo.results[0].warnings[0].substr(idx+9,5000);
                         }
-
-                        return $scope.warning
+                        return $scope.warning;
                     });
                     $scope.contra=[];
                     angular.forEach(medinfo.results[0].contraindications[0],function (contra) {
-                        var idx= medinfo.results[0].contraindications[0].indexOf('CONTRAINDICATIONS');
-                        $scope.contra= medinfo.results[0].contraindications[0].substr(idx+17,5000);
+                        if(medinfo.results[0].contraindications=== undefined){
+                            $scope.contra= 'Not found'
+                        }
+                        else {
+                            var idx= medinfo.results[0].contraindications[0].indexOf('CONTRAINDICATIONS');
+                            $scope.contra= medinfo.results[0].contraindications[0].substr(idx+17,5000);
 
-                        return $scope.contra
+                        }
+                        return $scope.contra;
                     });
 
        }).error(function (err) {
