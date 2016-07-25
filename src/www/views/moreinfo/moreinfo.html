@@ -1,0 +1,11 @@
+<ion-view>
+    <ion-content>
+        <div class="card card-red">
+            <div class="padding">
+            <div><span class="bold">Drug interaction:</span>{{druginter | limitTo:numLimit}}</div><button type='button' class="button button-clear button-positive" ng-click="interaction()">...Read More</button>
+            <div><span class="bold">Warning:</span>{{warning | limitTo:numLimit1}}</div><button type='button' class="button button-clear button-positive" ng-click="interaction1()">...Read More</button>
+            <div><span class="bold">Contraindications:</span>{{contra | limitTo:numLimit2}}</div><button type='button' class="button button-clear button-positive" ng-click="interaction2()">...Read More</button>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,59 +1,71 @@
 
-    angular.module('App')
+    angular.module('App');
        Momsmed.controller('ResultCtrl', function ($scope, $http, $ionicLoading,Medname) {
             $ionicLoading.show();
            $scope.input=Medname;
             var med =Medname.medname;
             $http.get('https://api.fda.gov/drug/label.json' + '?api_key=0hsABDQ17AnD4oCOhV0GxLmGbvNzZ87YqqrJvsf4&search=pregnancy:' + med)
                 .success(function (medinfo) {
-                    $scope.numLimit=0;
-                    $scope.Contraindications=function(){
+                    $scope.numLimit=100;
+                    $scope.interaction=function(){
                         $scope.numLimit=10000;
+                    };
+                    $scope.numLimit1=100;
+                    $scope.interaction1=function(){
+                        $scope.numLimit1=10000;
+                    };
+                    $scope.numLimit2=100;
+                    $scope.interaction2=function(){
+                        $scope.numLimit2=10000;
                     };
                     $scope.medinfo = medinfo;
                     // console.log($scope.medinfo.results[0].pregnancy[1].indexOf('Category'))
                     // console.log($scope.medinfo.results[0].nursing_mothers[0])
                     $ionicLoading.hide();
 
-
-
-
+                    var Category = "Pregnancy Category";
+                    var Categories = "Pregnancy Categories";
                     $scope.result =[];
 
                     angular.forEach(medinfo.results[0].pregnancy,  function (Category, Categories) {
                         if (medinfo.results[0].pregnancy === undefined){
-                            $scope.pregnancy = "N/A";
+                            $scope.result = "Not Available";
                         }
                         for (var i = 0; i < medinfo.results[0].pregnancy.length; i++) {
-                            console.log(i + " " + medinfo.results[0].pregnancy[i]);
 
                             //check if string array contains the string
                             if (medinfo.results[0].pregnancy[i].search("Pregnancy Category") >= 0) {
 
                                 //string found
-                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Category")+19;
-                                console.log("found                           " + Category)
+                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Category") + 19;
 
-                                console.log("i, found =" + i + " " + found);
-                                $scope.result=medinfo.results[0].pregnancy[i].substring(found, found+ 1);
+
+                                $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 1);
                                 break;
                             }
                             else if (medinfo.results[0].pregnancy[i].search("Pregnancy Categories") >= 0) {
 
                                 //string found
-                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Categories")+21;
-                                $scope.result=medinfo.results[0].pregnancy[i].substring(found, found+ 56);
+                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Categories") + 21;
+                                $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 56);
                                 break;
                             }
+                            else if (medinfo.results[0].pregnancy[i].search("Pregnancy") >= 0){
+                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy")
+                                $scope.result= medinfo.results[0].pregnancy[i].substring(found+9,1000);
+                            }
                             else {
-                                $scope.result= medinfo.results[0].pregnancy[i];
+                                $scope.result = medinfo.results[0].pregnancy[i]
                             }
 
+
                         }
+
 
                         console.log($scope.result);
                         return $scope.result;
                     });
+
                     $scope.getStyle = function(result){
                         if($scope.result == "A" || $scope.result== "B")
                             return {'color':'blue'};
@@ -66,38 +78,55 @@
                     };
 
 
-
-                    $scope.nursing_mothers = [];
-                    console.log(medinfo.results[0].nursing_mothers);
-                    angular.forEach(medinfo.results[0], function () {
+                    $scope.nurseinfo=[];
+                    angular.forEach(medinfo.results[0], function (){
                         if (medinfo.results[0].nursing_mothers === undefined){
-                            $scope.nursing_mothers = "N/A";
+                            $scope.nurseinfo = "Not Available";
+                        }
+                        else { var idx=medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother');
+                            $scope.nurseinfo= medinfo.results[0].nursing_mothers[0].substring(idx+16,700);
+
                         }
 
+                    return $scope.nurseinfo;
+
+                    });
+
+
+                    $scope.druginter=[];
+                    angular.forEach(medinfo.results[0],function (interaction) {
+                        if(medinfo.results[0].drug_interactions===undefined){
+                            $scope.warning="Not Available";
+                        }
                         else {
-                            for (var i = 0; i < medinfo.results[0].nursing_mothers.length; i++) {
-                                console.log(i + " " + medinfo.results[0].nursing_mothers[i]);
-
-                                if (i >= 0) {
-
-                                    $scope.nursing_mothers = medinfo.results[0].nursing_mothers[i];
-                                    break;
-                                }
-                                else if (i < 0) {
-
-                                    $scope.nursing_mothers = "Could not find the information...";
-                                    break;
-                                }
-                            }
-
+                            var idx= medinfo.results[0].drug_interactions[0].indexOf('Drug Interactions');
+                            $scope.druginter= medinfo.results[0].drug_interactions[0].substr(idx+18,5000);
                         }
 
+                    return $scope.druginter;
+                    });
+                    $scope.warning=[];
+                    angular.forEach(medinfo.results[0],function (warning) {
+                        if(medinfo.results[0].warnings ===undefined){
+                            $scope.warning="Not Available";
+                        }
+                        else {
+                            var idx= medinfo.results[0].warnings[0].indexOf('warnings');
+                            $scope.warning= medinfo.results[0].warnings[0].substr(idx+9,5000);
+                        }
 
-                        return $scope.nursing_mothers;});
+                        return $scope.warning;
+                    });
+                    $scope.contra=[];
+                    angular.forEach(medinfo.results[0],function (contra) {
+                        if(medinfo.results[0].contraindications===undefined){
+                            $scope.warning="Not Available";
+                        }
+                        else {var idx= medinfo.results[0].contraindications[0].indexOf('CONTRAINDICATIONS');
+                        $scope.contra= medinfo.results[0].contraindications[0].substr(idx+17,5000);}
 
-
-
-
+                        return $scope.contra;
+                    });
 
        }).error(function (err) {
            $ionicLoading.show({
@@ -106,4 +135,3 @@
            });
           });
        });
-

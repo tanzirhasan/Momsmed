@@ -16,7 +16,16 @@ Momsmed.config(function ($stateProvider, $urlRouterProvider) {
       url: '/result',
       controller: 'ResultCtrl',
       templateUrl: 'views/result/result.html'
-  });
+     })
+      .state('categories', {
+          url: '/categories',
+          templateUrl: 'views/categories/categories.html'
+      })
+    .state('moreinfo', {
+        url: '/moreinfo',
+        controller: 'ResultCtrl',
+        templateUrl: 'views/moreinfo/moreinfo.html'
+    });
   $urlRouterProvider.otherwise('/router');
 
 });

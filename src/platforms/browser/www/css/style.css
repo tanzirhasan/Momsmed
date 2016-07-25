@@ -12,7 +12,32 @@ ion-view{
     background-image: url(../img/picturebg.jpeg)
 
 }*/
+
+
+ion-view{
+    background-image: url(../img/homepage.png);
+    background-size: cover
+
+}
+
+.bg2{
+    background-image: url(../img/picturebg.jpeg);
+    background-size: cover
+}
+
 .bold{
 
     font-weight:bold;
+}
+.card .item{
+    background: #7388cd;
+}
+
+.card-red {
+    background:palevioletred;
+
+}
+
+.button-red{
+    background: palevioletred;
 }

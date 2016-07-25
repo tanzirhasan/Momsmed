@@ -1,26 +1,33 @@
-<ion-view class="bg2" "Result of your Search" >
+<ion-view class="bg2" "Result of your Search">
     <ion-content >
-        <div class="card">
+        <div class="card card-red">
+            <div class="padding">
             <div class="text-center">
                 <div ng-style ="getStyle(result)">
-                    <span class="bold">Pregnancy Category of {{input.medname}} : </span>{{result}}</div>
-                <!--<div >Pregnancy Category of {{input.medname}} : {{medinfo.results[0].pregnancy[0][medinfo.results[0].pregnancy[0].indexOf('Category')+9]}} ; {{medinfo.results[0].pregnancy[1][medinfo.results[0].pregnancy[1].indexOf('Category')+9]}}</div>-->
-                <div >
-                    <span class="bold" > Info for lactating mother for {{input.medname}} : </span>{{nursing_mothers}}</div>
-            </div>
-                <div class="text-left">
-                    <button type='button' class="button button-clear button-positive" ng-click="Contraindications()">See More</button>
-                    <p> <h6 class="bold">Contraindications: </h6>{{medinfo.results[0].contraindications[0] | limitTo:numLimit}} </p>
-                    <p> <h6 class="bold">Dosage forms and strengths: </h6>{{medinfo.results[0].dosage_forms_and_strengths[0] | limitTo:numLimit}} </p>
-                    <p> <h6 class="bold">Boxed warning: </h6>{{medinfo.results[0].boxed_warning[0] | limitTo:numLimit}} </p>
-
-
+                    <span class="bold">Pregnancy Category of {{input.medname}} : </span>
+                   <!--<span class="bold">Pregnancy Category of {{input.medname}} : </span>{{result}}-->
+                    <li >{{result}}</li>
                 </div>
+                <!--<div >Pregnancy Category of {{input.medname}} : {{medinfo.results[0].pregnancy[0][medinfo.results[0].pregnancy[0].indexOf('Category')+9]}} ; {{medinfo.results[0].pregnancy[1][medinfo.results[0].pregnancy[1].indexOf('Category')+9]}}</div>-->
+                <!--<span class="bold" > Info for lactating mother on {{input.medname}} : </span>{{medinfo.results[0].nursing_mothers[0].substring(medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother')+15,700)}}-->
+                <ul><span class="bold" > Info for lactating mother on {{input.medname}} : </span>
+                    <li >{{nurseinfo}}</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class="card card-red">
+            <div class="padding">
 
+                 Data provided by the U.S. Food and Drug Administration (https://open.fda.gov)
+            </div>
+        </div>
+        <div>
+            <a class="button button-block button-red" href="#/moreinfo" >Moreinfo on {{input.medname}} </a>
+        </div>
+        <div>
+         <a class="button button-block button-red" href="#/categories" >Info on Categories</a>
         </div>
 
-            <div class="card ">
-                Data provided by the U.S. Food and Drug Administration (https://open.fda.gov)
-            </div>
-    </ion-content>
+    </ion-content >
 </ion-view>
