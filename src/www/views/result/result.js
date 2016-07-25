@@ -1,5 +1,5 @@
 
-    angular.module('App')
+    angular.module('App');
        Momsmed.controller('ResultCtrl', function ($scope, $http, $ionicLoading,Medname) {
             $ionicLoading.show();
            $scope.input=Medname;
@@ -11,44 +11,77 @@
                     // console.log($scope.medinfo.results[0].nursing_mothers[0])
                     $ionicLoading.hide();
 
-
-
                     var Category = "Pregnancy Category";
                     var Categories = "Pregnancy Categories";
                     $scope.result =[];
 
                     angular.forEach(medinfo.results[0].pregnancy,  function (Category, Categories) {
                         for (var i = 0; i < medinfo.results[0].pregnancy.length; i++) {
-                            console.log(i + " " + medinfo.results[0].pregnancy[i]);
 
                             //check if string array contains the string
                             if (medinfo.results[0].pregnancy[i].search("Pregnancy Category") >= 0) {
 
                                 //string found
-                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Category")+19;
-                                console.log("found                           " + Category)
+                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Category") + 19;
 
-                                console.log("i, found =" + i + " " + found);
-                                $scope.result=medinfo.results[0].pregnancy[i].substring(found, found+ 2);
+
+                                $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 2);
                                 break;
                             }
                             else if (medinfo.results[0].pregnancy[i].search("Pregnancy Categories") >= 0) {
 
                                 //string found
-                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Categories")+21;
-                                $scope.result=medinfo.results[0].pregnancy[i].substring(found, found+ 56);
+                                var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Categories") + 21;
+                                $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 56);
                                 break;
                             }
 
                         }
 
+
+                        console.log($scope.result);
+                        return $scope.result;
+                    });
+                    $scope.nurseinfo=[];
+                    angular.forEach(medinfo.results[0].nursing_mothers[0],function(milkinfo){
+                        if(medinfo.results[0].nursing_mothers[0]===undefined){
+                            $scope.nurseinfo='Not found';
+                        }
+                        else { var idx=medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother');
+                            $scope.nurseinfo= medinfo.results[0].nursing_mothers[0].substring(idx+16,700);
+
+                        }
+
+                    return $scope.nurseinfo
+
                     });
 
-                    console.log($scope.result);
-                    return $scope.result;
+                    $scope.druginter=[];
+                    angular.forEach(medinfo.results[0].drug_interactions[0],function (interaction) {
+                        var idx= medinfo.results[0].drug_interactions[0].indexOf('Drug Interactions');
+                        $scope.druginter= medinfo.results[0].drug_interactions[0].substr(idx+18,5000);
+                        
+                    return $scope.druginter 
+                    });
+                    $scope.warning=[];
+                    angular.forEach(medinfo.results[0].warnings[0],function (warning) {
+                        if(medinfo.results[0].warnings[0]===undefined){
+                            $scope.warning='not found';
+                        }
+                        else {
+                            var idx= medinfo.results[0].warnings[0].indexOf('warnings');
+                            $scope.warning= medinfo.results[0].warnings[0].substr(idx+9,5000);
+                        }
 
-                    
+                        return $scope.warning
+                    });
+                    $scope.contra=[];
+                    angular.forEach(medinfo.results[0].contraindications[0],function (contra) {
+                        var idx= medinfo.results[0].contraindications[0].indexOf('CONTRAINDICATIONS');
+                        $scope.contra= medinfo.results[0].contraindications[0].substr(idx+17,5000);
 
+                        return $scope.contra
+                    });
 
        }).error(function (err) {
            $ionicLoading.show({
