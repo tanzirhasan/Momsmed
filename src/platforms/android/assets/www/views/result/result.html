@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <ion-view view-title="Result of your Search">
     <ion-content >
         <div class="card">
@@ -17,4 +18,38 @@
 
         </div>
     </ion-content>
+=======
+<ion-view class="bg2" "Result of your Search">
+    <ion-content >
+        <div class="card card-red">
+            <div class="padding">
+            <div class="text-center">
+                <div ng-style ="getStyle(result)">
+                    <span class="bold">Pregnancy Category of {{input.medname}} : </span>
+                   <!--<span class="bold">Pregnancy Category of {{input.medname}} : </span>{{result}}-->
+                    <li >{{result}}</li>
+                </div>
+                <!--<div >Pregnancy Category of {{input.medname}} : {{medinfo.results[0].pregnancy[0][medinfo.results[0].pregnancy[0].indexOf('Category')+9]}} ; {{medinfo.results[0].pregnancy[1][medinfo.results[0].pregnancy[1].indexOf('Category')+9]}}</div>-->
+                <!--<span class="bold" > Info for lactating mother on {{input.medname}} : </span>{{medinfo.results[0].nursing_mothers[0].substring(medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother')+15,700)}}-->
+                <ul><span class="bold" > Info for lactating mother on {{input.medname}} : </span>
+                    <li >{{nurseinfo}}</li>
+                    <li ng-show="!nurseinfo.length">No infromation found in FDA database</li></ul>
+            </div>
+        </div>
+        </div>
+        <div class="card card-red">
+            <div class="padding">
+
+                 Data provided by the U.S. Food and Drug Administration (https://open.fda.gov)
+            </div>
+        </div>
+        <div>
+            <a class="button button-block button-red" href="#/moreinfo" >Moreinfo on {{input.medname}} </a>
+        </div>
+        <div>
+         <a class="button button-block button-red" href="#/categories" >Info on Categories</a>
+        </div>
+
+    </ion-content >
+>>>>>>> a8cabbe0b1e52b06d7c5ea6fe5f694c51d1afce0
 </ion-view>

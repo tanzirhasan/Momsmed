@@ -2,8 +2,220 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="763e61cf-9c34-4d6c-bc6d-133406a79dd7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/img/homepage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/img/picturebg.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/angular.min.js.gzip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/views/categories/categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/views/moreinfo/moreinfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/browser/www/views/categories/categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/browser/www/views/moreinfo/moreinfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/ios.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/cordova_plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/plugins/cordova-plugin-console/www/console-via-logger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/plugins/cordova-plugin-console/www/logger.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/plugins/cordova-plugin-device/www/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/plugins/cordova-plugin-splashscreen/www/splashscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/platform_www/plugins/ionic-plugin-keyboard/www/ios/keyboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/angular-animate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/angular-animate.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-animate/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/angular-sanitize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/state.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/stateDirectives.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/stateFilters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/templateFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/urlRouter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/viewDirective.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/src/viewScroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/angular-csp.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/angular.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_loaders.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_split-pane.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/dist/ng-cordova-mocks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/dist/ng-cordova.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/dist/ng-cordova.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ngCordova/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/views/categories/categories.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/views/home/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/views/moreinfo/moreinfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/views/result/result.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/views/result/result.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/platforms/ios/www/views/router/router.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular-ui/angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular-animate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular-resource.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular-resource.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular-sanitize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_slides.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/version.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed.xcodeproj/project.pbxproj" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/.gitignore" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Classes/AppDelegate.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Classes/AppDelegate.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Classes/AppDelegate.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Classes/AppDelegate.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Classes/MainViewController.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Classes/MainViewController.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Classes/MainViewController.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Classes/MainViewController.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Classes/MainViewController.xib" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Classes/MainViewController.xib" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/HelloCordova-Info.plist" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Momsmed-Info.plist" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/HelloCordova-Prefix.pch" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Momsmed-Prefix.pch" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/README" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/README" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-console/CDVLogger.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-console/CDVLogger.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-console/CDVLogger.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-console/CDVLogger.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-device/CDVDevice.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-device/CDVDevice.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-device/CDVDevice.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-device/CDVDevice.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-splashscreen/CDVSplashScreen.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-splashscreen/CDVViewController+SplashScreen.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-statusbar/CDVStatusBar.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-statusbar/CDVStatusBar.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/cordova-plugin-statusbar/CDVStatusBar.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/cordova-plugin-statusbar/CDVStatusBar.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/ionic-plugin-keyboard/IonicKeyboard.h" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/ionic-plugin-keyboard/IonicKeyboard.h" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Plugins/ionic-plugin-keyboard/IonicKeyboard.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Plugins/ionic-plugin-keyboard/IonicKeyboard.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-40.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-40.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-40@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-40@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-50.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-50.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-50@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-50@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-60.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-60.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-60@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-60@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-60@3x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-60@3x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-72.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-72.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-72@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-72@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-76.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-76.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-76@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-76@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-small.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon-small@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon-small@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/icons/icon@2x.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/icons/icon@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-568h@2x~iphone.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-568h@2x~iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-667h.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-667h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-736h.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-736h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-Landscape-736h.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-Landscape-736h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-Landscape@2x~ipad.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-Landscape@2x~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-Landscape~ipad.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-Landscape~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-Portrait@2x~ipad.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-Portrait@2x~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default-Portrait~ipad.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default-Portrait~ipad.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default@2x~iphone.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default@2x~iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/Resources/splash/Default~iphone.png" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/Resources/splash/Default~iphone.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/config.xml" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/config.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/HelloCordova/main.m" afterPath="$PROJECT_DIR$/src/platforms/ios/Momsmed/main.m" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular-sanitize.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/angular/angular.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular/angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/img/ionic.png" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/img/ionic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/img/ionic.png" afterPath="$PROJECT_DIR$/src/platforms/browser/www/img/ionic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/img/ionic.png" afterPath="$PROJECT_DIR$/src/platforms/ios/www/img/ionic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/css/style.css" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/js/app.js" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/views/home/home.html" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/views/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/views/result/result.html" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/views/result/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/views/result/result.js" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/views/result/result.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/android/assets/www/views/router/router.html" afterPath="$PROJECT_DIR$/src/platforms/android/assets/www/views/router/router.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/src/platforms/browser/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/src/platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/css/style.css" afterPath="$PROJECT_DIR$/src/platforms/browser/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/src/platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/js/app.js" afterPath="$PROJECT_DIR$/src/platforms/browser/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/src/platforms/browser/www/lib/angular-sanitize/angular-sanitize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/views/home/home.html" afterPath="$PROJECT_DIR$/src/platforms/browser/www/views/home/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/views/result/result.html" afterPath="$PROJECT_DIR$/src/platforms/browser/www/views/result/result.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/views/result/result.js" afterPath="$PROJECT_DIR$/src/platforms/browser/www/views/result/result.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/browser/www/views/router/router.html" afterPath="$PROJECT_DIR$/src/platforms/browser/www/views/router/router.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/src/platforms/ios/www/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/src/platforms/ios/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/js/app.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/release/angular-ui-router.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/angular-ui-router/release/angular-ui-router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/css/ionic.css" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/css/ionic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/css/ionic.min.css" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/css/ionic.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/fonts/ionicons.svg" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/fonts/ionicons.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic-angular.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic-angular.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic-angular.min.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic-angular.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.bundle.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.bundle.min.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.bundle.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.min.js" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/js/ionic.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_action-sheet.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_action-sheet.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_animations.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_animations.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_backdrop.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_backdrop.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_badge.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_badge.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_bar.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_button-bar.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_button-bar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_button.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_button.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_checkbox.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_checkbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_form.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_form.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_grid.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_items.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_items.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_list.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_list.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_loading.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_loading.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_menu.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_menu.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_mixins.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_modal.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_platform.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_platform.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_popover.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_popover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_popup.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_popup.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_progress.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_progress.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_radio.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_radio.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_range.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_range.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_refresher.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_refresher.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_reset.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_reset.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_scaffolding.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_scaffolding.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_select.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_select.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_slide-box.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_slide-box.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_spinner.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_spinner.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_tabs.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_toggle.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_toggle.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_transitions.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_transitions.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_type.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_type.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_util.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_util.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_variables.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionic.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionic.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-font.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/ionicons.scss" afterPath="$PROJECT_DIR$/src/platforms/ios/www/lib/ionic/scss/ionicons/ionicons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/lib/angular-sanitize/angular-sanitize.js" afterPath="$PROJECT_DIR$/src/www/lib/angular-sanitize/angular-sanitize.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/views/categories/categories.html" afterPath="$PROJECT_DIR$/src/www/views/categories/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/www/views/result/result.js" afterPath="$PROJECT_DIR$/src/www/views/result/result.js" />
     </list>
     <ignored path="Momsmed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +246,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="result.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/www/views/result/result.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="92" />
+            <state relative-caret-position="270">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -54,17 +266,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/www/views/home/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="result.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/www/views/result/result.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="1410">
               <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categories.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="categories.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/www/views/categories/categories.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -76,6 +298,16 @@
                 <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="router.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/www/views/router/router.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,11 +334,11 @@
         <option value="$PROJECT_DIR$/src/www/js/app.js" />
         <option value="$PROJECT_DIR$/src/www/index.html" />
         <option value="$PROJECT_DIR$/src/www/views/router/router.html" />
-        <option value="$PROJECT_DIR$/src/www/views/home/home.html" />
         <option value="$PROJECT_DIR$/src/www/css/style.css" />
-        <option value="$PROJECT_DIR$/src/www/views/moreinfo/moreinfo.html" />
         <option value="$PROJECT_DIR$/src/www/views/result/result.html" />
+        <option value="$PROJECT_DIR$/src/www/views/moreinfo/moreinfo.html" />
         <option value="$PROJECT_DIR$/src/www/views/result/result.js" />
+        <option value="$PROJECT_DIR$/src/www/views/home/home.html" />
         <option value="$PROJECT_DIR$/src/www/views/categories/categories.html" />
       </list>
     </option>
@@ -118,8 +350,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-42" />
-    <option name="y" value="85" />
+    <option name="x" value="31" />
+    <option name="y" value="51" />
     <option name="width" value="1280" />
     <option name="height" value="714" />
   </component>
@@ -218,110 +450,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="router" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="moreinfo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Momsmed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="categories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,12 +573,12 @@
       <workItem from="1468959189630" duration="380000" />
       <workItem from="1468959714793" duration="18929000" />
       <workItem from="1469379309570" duration="1756000" />
-      <workItem from="1469382379514" duration="37060000" />
+      <workItem from="1469382379514" duration="38435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61701000" />
+    <option name="totallyTimeSpent" value="63076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -462,11 +590,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-42" y="85" width="1280" height="714" extended-state="0" />
+    <frame x="31" y="51" width="1280" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22875299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3285968" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,7 +605,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -709,22 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/views/router/router.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/views/home/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -741,18 +853,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/views/result/result.html">
+    <entry file="file://$PROJECT_DIR$/src/www/views/result/result.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="92" />
+        <state relative-caret-position="1410">
+          <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/www/views/result/result.js">
+    <entry file="file://$PROJECT_DIR$/src/www/views/router/router.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="95" column="54" selection-start-line="95" selection-start-column="54" selection-end-line="95" selection-end-column="54" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/www/views/home/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -768,6 +888,14 @@
             <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#div#0;n#div#0;n#ion-content#0;n#ion-view#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/www/views/result/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

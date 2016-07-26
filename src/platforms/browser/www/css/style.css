@@ -12,7 +12,38 @@ ion-view{
     background-image: url(../img/picturebg.jpeg)
 
 }*/
+<<<<<<< HEAD
 .bold{
 
     font-weight:bold;
+=======
+
+
+ion-view{
+    background-image: url(../img/homepage.png);
+    background-size: cover
+
+}
+
+.bg2{
+    background-image: url(../img/picturebg.jpeg);
+    background-size: cover
+}
+
+.bold{
+
+    font-weight:bold;
+}
+.card .item{
+    background: #7388cd;
+}
+
+.card-red {
+    background:palevioletred;
+
+}
+
+.button-red{
+    background: palevioletred;
+>>>>>>> a8cabbe0b1e52b06d7c5ea6fe5f694c51d1afce0
 }
