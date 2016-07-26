@@ -53,34 +53,21 @@
 
 
                     $scope.nurseinfo=[];
-                    angular.forEach(medinfo.results[0].nursing_mothers,function(milkinfo){
-                        if(medinfo.results[0].nursing_mothers === undefined){
-                            $scope.nurseinfo='Not found';
+                    angular.forEach(medinfo.results[0], function (){
+                        if (medinfo.results[0].nursing_mothers === undefined){
+                            $scope.nurseinfo = "Not Available";
                         }
-                        else {
-                           for ( var i=0; i < medinfo.results[0].nursing_mothers.length ;i++ ){
-                               if (i>=0){
-                                   var idx =medinfo.results[0].nursing_mothers[i].indexOf('Nursing Mother');
-                                   $scope.nurseinfo= medinfo.results[0].nursing_mothers[0].substring(idx+16,700);
-                                   break;
-
-                               }
-                               else if(i<0){
-                                   $scope.nurseinfo='No infromation found in FDA database';
-                                   break;
-
-                               }
-                           }
-
+                        else { var idx=medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother');
+                            $scope.nurseinfo= medinfo.results[0].nursing_mothers[0].substring(idx+16,700);
 
                         }
 
-                    return $scope.nurseinfo;
+                        return $scope.nurseinfo;
 
                     });
 
                     $scope.druginter=[];
-                    angular.forEach(medinfo.results[0].drug_interactions,function (interaction) {
+                    angular.forEach(medinfo.results[0],function (interaction) {
                         if(medinfo.results[0].drug_interactions === undefined){
                             $scope.druginter= 'Not found';
                         }
@@ -92,7 +79,7 @@
                     return $scope.druginter ;
                     });
                     $scope.warning=[];
-                    angular.forEach(medinfo.results[0].warnings,function (warning) {
+                    angular.forEach(medinfo.results[0],function (warning) {
                         if(medinfo.results[0].warnings === undefined){
                             $scope.warning='not found';
 
@@ -103,8 +90,10 @@
                         }
                         return $scope.warning;
                     });
+
+
                     $scope.contra=[];
-                    angular.forEach(medinfo.results[0].contraindications[0],function (contra) {
+                    angular.forEach(medinfo.results[0],function (contra) {
                         if(medinfo.results[0].contraindications=== undefined){
                             $scope.contra= 'Not found'
                         }
