@@ -28,7 +28,7 @@
                                 var found = medinfo.results[0].pregnancy[i].indexOf("Pregnancy Category") + 19;
 
 
-                                $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 2);
+                                $scope.result = medinfo.results[0].pregnancy[i].substring(found, found + 1);
                                 break;
                             }
                             else if (medinfo.results[0].pregnancy[i].search("Pregnancy Categories") >= 0) {
@@ -49,7 +49,16 @@
                         return $scope.result;
                     });
 
-
+                    $scope.getStyle = function(result){
+                        if($scope.result == "A" || $scope.result== "B")
+                            return {'color':'greenyellow'};
+                        if($scope.result == "C")
+                            return {'color':'darkorange'};
+                        if($scope.result == "D" || $scope.result== "X")
+                            return {'color':'red'};
+                        else
+                            return {"color": "purple"}
+                    };
 
 
                     $scope.nurseinfo=[];

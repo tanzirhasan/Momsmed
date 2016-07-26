@@ -4,12 +4,14 @@
             <div class="padding">
             <div class="text-center">
 
+
                 <ul> <span class="bold">Pregnancy Category of {{input.medname}} : </span>
 
                    <!--<span class="bold">Pregnancy Category of {{input.medname}} : </span>{{result}}-->
-                    <li >{{result}}</li>
+                    <div ng-style="getStyle(result)"> <li class="bold">{{result}}</li> </div>
                     <!--<li ng-hide="result.length">No infromation found in FDA database</li>-->
                 </ul>
+
 
                 <!--<div >Pregnancy Category of {{input.medname}} : {{medinfo.results[0].pregnancy[0][medinfo.results[0].pregnancy[0].indexOf('Category')+9]}} ; {{medinfo.results[0].pregnancy[1][medinfo.results[0].pregnancy[1].indexOf('Category')+9]}}</div>-->
                 <!--<span class="bold" > Info for lactating mother on {{input.medname}} : </span>{{medinfo.results[0].nursing_mothers[0].substring(medinfo.results[0].nursing_mothers[0].indexOf('Nursing Mother')+15,700)}}-->
