@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="app.momsmed.tanzir" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Momsmed</name>
+  <name>MomsMed</name>
   <description>
-        An Ionic Framework and Cordova project.
+        An App to find FDA pregnancy Category of drugs.
     </description>
-  <author email="drtanzir@gmail.com" href="http://example.com.com/">
-      Tanzir , Kevin
+  <author email="hitanzir@gmail.com" href="http://example.com.com/">
+      Tanzir Hasan, Kevin Nguyen
     </author>
   <content src="index.html"/>
   <access origin="*"/>

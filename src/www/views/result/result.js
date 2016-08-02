@@ -1,11 +1,13 @@
 
     angular.module('App');
-       Momsmed.controller('ResultCtrl', function ($scope, $http, $ionicLoading,Medname) {
+       Momsmed.controller('ResultCtrl', function ($scope, $http, $ionicLoading, Medname) {
             $ionicLoading.show();
            $scope.input=Medname;
             var med =Medname.medname;
             $http.get('https://api.fda.gov/drug/label.json' + '?api_key=0hsABDQ17AnD4oCOhV0GxLmGbvNzZ87YqqrJvsf4&search=pregnancy:' + med)
                 .success(function (medinfo) {
+
+                    
                     $scope.medinfo = medinfo;
                     // console.log($scope.medinfo.results[0].pregnancy[1].indexOf('Category'))
                     // console.log($scope.medinfo.results[0].nursing_mothers[0])
@@ -53,7 +55,7 @@
                         if($scope.result == "A" || $scope.result== "B")
                             return {'color':'greenyellow'};
                         if($scope.result == "C")
-                            return {'color':'darkorange'};
+                            return {'color':'#ffff13'};
                         if($scope.result == "D" || $scope.result== "X")
                             return {'color':'red'};
                         else
@@ -117,7 +119,7 @@
        }).error(function (err) {
            $ionicLoading.show({
                template: 'Could not find the medication in FDA database. Please check the spelling of the medication.',
-               duration: 3000
+               duration: 1000
            });
           });
        });

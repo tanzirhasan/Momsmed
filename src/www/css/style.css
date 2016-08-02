@@ -28,6 +28,11 @@ ion-view{
 .bold{
 
     font-weight:bold;
+
+}
+.text{
+    font-size: larger;
+    font-weight:bold
 }
 .card .item{
     background: #7388cd;

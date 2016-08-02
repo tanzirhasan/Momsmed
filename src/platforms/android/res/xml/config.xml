@@ -38,12 +38,12 @@
     <splash density="port-xhdpi" src="resources/android/splash/drawable-port-xhdpi-screen.png" />
     <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
     <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-    <name>Momsmed</name>
+    <name>MomsMed</name>
     <description>
         An Ionic Framework and Cordova project.
     </description>
-    <author email="drtanzir@gmail.com" href="http://example.com.com/">
-      Tanzir , Kevin
+    <author email="hitanzir@gmail.com" href="http://example.com.com/">
+      Tanzir Hasan, Kevin Nguyen
     </author>
     <content src="index.html" />
     <access origin="*" />

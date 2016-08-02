@@ -1,4 +1,4 @@
-var Momsmed = angular.module('App', ['ionic'])
+var Momsmed = angular.module('App', ['ionic']);
 
 Momsmed.config(function ($stateProvider, $urlRouterProvider) {
 
@@ -25,6 +25,7 @@ Momsmed.config(function ($stateProvider, $urlRouterProvider) {
         url: '/moreinfo',
         controller: 'ResultCtrl',
         templateUrl: 'views/moreinfo/moreinfo.html'
+
     });
   $urlRouterProvider.otherwise('/router');
 
@@ -41,12 +42,7 @@ Momsmed.controller('HomeCtrl',function($scope, Medname){
 Momsmed.controller('ResultCtrl',function($scope, Medname){
   $scope.input= Medname;
 })
-
-/*.config( ['$compileProvider', function( $compileProvider ){
-  $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|mailto|content):/);
-  //$compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|mailto|geo):/);
-}])*/
-
+    
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
     if(window.cordova && window.cordova.plugins.Keyboard) {

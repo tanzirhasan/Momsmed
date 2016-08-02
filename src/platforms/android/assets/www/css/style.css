@@ -12,8 +12,6 @@ ion-view{
     background-image: url(../img/picturebg.jpeg)
 
 }*/
-<<<<<<< HEAD
-=======
 
 
 ion-view{
@@ -27,15 +25,16 @@ ion-view{
     background-size: cover
 }
 
->>>>>>> a8cabbe0b1e52b06d7c5ea6fe5f694c51d1afce0
 .bold{
 
     font-weight:bold;
+
+}
+.text{
+    font-size: larger;
+    font-weight:bold
 }
 .card .item{
-<<<<<<< HEAD
-    background:cornflowerblue;
-=======
     background: #7388cd;
 }
 
@@ -46,5 +45,4 @@ ion-view{
 
 .button-red{
     background: palevioletred;
->>>>>>> a8cabbe0b1e52b06d7c5ea6fe5f694c51d1afce0
 }
